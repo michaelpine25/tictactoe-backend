@@ -60,7 +60,10 @@ REST_FRAMEWORK = {
     ],
 }
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173', 
+    "https://michaelpine25.github.io/tictactoe-frontend"
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
